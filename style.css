@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+
+img {
+  border: 4px solid maroon;
+  border-radius: 15px;
+}
+
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: maroon;
+  color: white;
+}
+
+
+tr:nth-child(even) {
+  background-color: #e6d3b3;
+}
+
+
+ul,
+ol {
+  list-style: none;
+}
